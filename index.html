@@ -4,26 +4,50 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
   
   <title>Frontend Mentor | Base Apparel coming soon page</title>
 
 </head>
-<body class="container">
-  <header class="header">
-    <img src="images/logo.svg" alt="Base Apparel logo" class="header__logo">
-    <h1 class="header__heading-1">We're</h1>
-    <h1 class="header__heading-2">Coming Soon</h1>
-    <p class="header__text">Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
-    <div class="header__email">
-      <input type="email" class="header__email--input" required placeholder="Email Address">
-    </div>
-  </header>
+<body>
+    <main class="container">
+        <div class="logo">
+          <a href="#" class="logo__link">
+            <img src="images/logo.svg" alt="Base Apparel Logo" class="logo__image">
+          </a>
+        </div>
+    
+        <div class="hero">
+          
+        </div>
+    
+        <section class="cta">
+          <h1 class="cta__heading">
+            <span class="cta__heading-1">We're</span> coming soon
+          </h1>
+    
+          <p class="cta__text">
+            Hello fellow shoppers! We're currently building our new fashion store.
+            Add your email below to stay up-to-date with announcements and our launch deals.
+          </p>
+    
+          <form action="#" class="form">
+            <div class="form__group">
+              <input type="email" id="email" class="form__input" placeholder="Email Address" aria-label="Email Address"
+                required>
+              <p class="form__warning">Please provide a valid email</p>
+            </div>
+    
+            <button type="submit" class="form__submit btn">
+              <img src="images/icon-arrow.svg" alt="Submit">
+            </button>
 
-  <div class="hero">
-    <img src="images/hero-desktop.jpg" alt="Hero Image">
-  </div>
+          </form>
+
+        </section>
+
+      </main>
 </body>
 </html>

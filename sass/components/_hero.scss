@@ -1,0 +1,7 @@
+.hero {
+    background-image: url(../images/hero-desktop.jpg);
+    background-size: cover;
+    grid-column: 5 / 8;
+    grid-row: 1 / -1;
+    max-width: 100%;
+}

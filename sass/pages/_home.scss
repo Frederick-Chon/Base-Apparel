@@ -1,0 +1,8 @@
+body {
+    background: rgba($desaturated-red, .2);
+}
+
+.cta {
+    grid-column: 2 / 4;
+    grid-row: 3 / 6;
+}

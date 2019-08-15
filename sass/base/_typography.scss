@@ -1,0 +1,25 @@
+body {
+    font-family: $font-primary;
+}
+
+.cta {
+    &__heading {
+        color: $dark-red;
+        font-size: 6rem;
+        letter-spacing: 1rem;
+        line-height: 1.3;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+
+        &-1 {
+            display: block;
+            color: $desaturated-red;
+            font-size: 7rem;
+            font-weight: 300;
+        }
+    }
+
+    &__text {
+
+    }
+}
