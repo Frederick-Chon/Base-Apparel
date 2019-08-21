@@ -37,7 +37,8 @@ body {
     &__input {
         font-family: inherit;
         font-size: $default-font-size;
-        color: $desaturated-red;
+        color: #000;
+        padding-left: 1.5rem;
 
         &::placeholder {
 			color: rgba($desaturated-red, .5);
